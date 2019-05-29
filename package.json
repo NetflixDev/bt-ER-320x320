@@ -32,7 +32,6 @@
     "description": "C20/Monet-compatible templates that use  https://github.com/ff0000-ad-tech/ad-docs/blob/master/README.md",
     "type": "build_templates",
     "builder": {
-      "label": "320x320 NF Global Template",
       "tier": "endframe-resolve",
       "size": "320x320",
       "creative": "./dist/3-traffic/default/320x320",
@@ -46,7 +45,7 @@
     },
     "context": "RED Interactive",
     "state": "published",
-    "updated": 1559066823524,
+    "updated": 1559154545622,
     "username": "GitHub",
     "full_name": "NetflixDev/bt-ER-320x320",
     "html_url": "https://github.com/NetflixDev/bt-ER-320x320",
