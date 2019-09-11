@@ -1,19 +1,19 @@
-import "@netflixadseng/wc-netflix-brand-logo";
-import "@netflixadseng/wc-netflix-cta";
-import "@netflixadseng/wc-netflix-text";
-import "@netflixadseng/wc-netflix-img";
+import "@netflixdev/wc-netflix-brand-logo";
 import { Styles, Markup, Align, Effects } from "ad-view";
 import { ImageManager } from "ad-control";
+import "@netflixdev/wc-netflix-img";
 import { cornerInit, sideBySideInit, oneLineInit } from "./EndFrame/inits";
 import { Animation } from "@common/js/Animation.js";
 import { Control } from "@common/js/Control.js";
-import "@netflixadseng/wc-netflix-flushed-ribbon";
+import "@netflixdev/wc-netflix-cta";
 import {
   cornerRightPostMarkup,
   sideBySidePostMarkup,
   oneLinePostMarkup,
   cornerLeftPostMarkup
 } from "./EndFrame/postmarkups";
+import "@netflixdev/wc-netflix-flushed-ribbon";
+import "@netflixdev/wc-netflix-text";
 import {
   UIComponent,
   UIBorder,
