@@ -16,7 +16,6 @@ function sideBySideInit(T) {
 function cornerInit(T) {
 	const extraCtaLogoInit = (cta, logo) => {
 		cta.setAttribute('min-font-size', 6)
-		cta.setAttribute('stretch-origin', 'right')
 	}
 	baseInit(T, { logoWidth: 95, ctaWidth: 94, ctaMaxWidth: 94, ctaHeight: 25, extraCtaLogoInit })
 }
